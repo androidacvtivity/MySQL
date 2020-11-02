@@ -1,0 +1,2 @@
+SELECT COUNT(*) AS CNT
+FROM prod_11_02_20.registru_md_11_02_2020
