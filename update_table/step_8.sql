@@ -1,4 +1,4 @@
-CREATE TABLE `reg_11_02_20_t1` (
+CREATE TABLE `reg_11_19_20_t1` (
 	`id` INT  NOT NULL AUTO_INCREMENT,
 	`name` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`died` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
@@ -17,4 +17,4 @@ CREATE TABLE `reg_11_02_20_t1` (
 )
 COLLATE='utf8mb4_unicode_ci'
 ENGINE=InnoDB
-;
+;prod_11_16_20
