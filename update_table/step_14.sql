@@ -1,4 +1,4 @@
-UPDATE  reg_02_08_21_v2 
+UPDATE  reg_02_15_21_v2 
 SET phoneinternal = 'activ'
 WHERE 
 phoneinternal <>  'lichidata';
