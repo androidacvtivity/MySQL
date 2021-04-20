@@ -1,5 +1,5 @@
 SELECT COUNT(*) AS CNT
-FROM registru_md_03_29_2021
+FROM registru_md_04_12_2021
 
 UNION ALL 
 
@@ -9,7 +9,7 @@ FROM vw_1
 UNION ALL 
 
 SELECT COUNT(*) AS CNT
-FROM id_registru_md_03_29_2021
+FROM id_registru_md_04_12_2021
 
 UNION ALL 
 
@@ -19,17 +19,17 @@ FROM vw_2
 UNION ALL 
 
 SELECT COUNT(*) AS CNT
-FROM reg_03_29_20_t1
+FROM reg_04_12_21_t1
 
 
 UNION ALL 
 
 SELECT COUNT(*) AS CNT
-FROM reg_03_29_21_v2
+FROM reg_04_12_21_v2
 
 UNION ALL 
 
 SELECT COUNT(*) AS CNT
-FROM reg_03_29_21_vw
+FROM reg_04_12_21_vw
 
 
