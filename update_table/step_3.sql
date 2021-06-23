@@ -37,7 +37,7 @@ FROM reg_06_07_21_vw
 
 
 SELECT *
-FROM registru_md_06_07_2021
+FROM registru_md_06_21_2021
 
 ORDER BY 
 DATA_REG DESC
