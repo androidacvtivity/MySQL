@@ -2,6 +2,9 @@ SELECT *
 FROM start3v2;
 
 
+SELECT *
+FROM start3v2;
+
 
 
 UPDATE start3v2 
