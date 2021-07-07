@@ -13,19 +13,15 @@ ENGINE=InnoDB
 ;
 
 
-UPDATE reg_cfp_03_21
+UPDATE reg_cfp_06_21
 
-SET act = 'www.date.gov.me - 01.03.2021';
+SET act = 'www.date.gov.me - 01.06.2021';
 
-UPDATE  reg_cfp_03_21
-
+UPDATE  reg_cfp_06_21
 SET DENUMIRE =  replace(replace(replace(replace(replace(replace(replace(replace(DENUMIRE,'Ţ','T')
 ,'ţ','t'),'Ş','S'),'ş','s'),'ă','a'),'Ă','A'),'Î','I'),'î','i');
 
 
-
-
-
 SELECT *
+FROM reg_caem_06_21;
 
-FROM reg_caem_03_21;
