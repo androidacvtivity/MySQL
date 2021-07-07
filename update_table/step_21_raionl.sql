@@ -13,12 +13,12 @@ ENGINE=InnoDB
 ;
 
 
-UPDATE reg_cuatm_03_21
+UPDATE reg_cuatm_06_21
 
-SET SOURCE = 'www.date.gov.me - 01.03.2021';
+SET SOURCE = 'www.date.gov.me - 01.06.2021';
 
 
-UPDATE  reg_cuatm_03_21
+UPDATE  reg_cuatm_06_21
 
 SET DEN_CUATM =  replace(replace(replace(replace(replace(replace(replace(replace(DEN_CUATM,'Ţ','T')
 ,'ţ','t'),'Ş','S'),'ş','s'),'ă','a'),'Ă','A'),'Î','I'),'î','i');
@@ -29,4 +29,4 @@ SET DEN_CUATM =  replace(replace(replace(replace(replace(replace(replace(replace
 
 SELECT *
 
-FROM reg_cuatm_03_21;
+FROM reg_cuatm_06_21;
