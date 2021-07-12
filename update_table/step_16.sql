@@ -1,4 +1,4 @@
-INSERT INTO reg_06_07_21_vw
+INSERT INTO reg_07_09_21_vw
 (
  id_vw,
  DEN_COM_VW,
@@ -32,7 +32,7 @@ SELECT
  email DATA_REG_VW,
  personalinfo
 
-	FROM reg_06_07_21_v2
+	FROM reg_07_09_21_v2
 	
 	WHERE 
 	1 
