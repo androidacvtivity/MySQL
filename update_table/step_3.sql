@@ -30,17 +30,29 @@ FROM reg_07_09_21_v2
 UNION ALL 
 
 SELECT COUNT(*) AS CNT
-FROM reg_07_09_21_vw
+FROM reg_07_09_21_vw 
+
+-- 244767
+
+
+UNION 
+
+SELECT COUNT(*) AS CNT
+FROM reg_06_07_21_vw 
+
 
 
 
 
 
 SELECT *
-FROM registru_md_07_09_2021
+FROM reg_07_09_21_vw
 
-ORDER BY 
-DATA_REG DESC
+ORDER BY
+
+DATA_REG_VW ASC  
+
+
 
 
 
