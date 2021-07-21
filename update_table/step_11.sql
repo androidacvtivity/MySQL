@@ -1,4 +1,4 @@
-INSERT INTO  reg_07_09_21_v2
+INSERT INTO  reg_20_07_21_v2
 (
    id, 
 	name,
@@ -38,7 +38,7 @@ SELECT
 	 email,
 	 personalinfo
 	 
-FROM reg_07_09_21_t1
+FROM reg_20_07_21_t1
 
 WHERE
 1;
