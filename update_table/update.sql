@@ -12,4 +12,4 @@ SELECT SYSDATE() FROM DUAL;
 
 UPDATE start3v2 
 
-SET notice = 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil';u331875177_db2_old
+SET notice = 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil';
