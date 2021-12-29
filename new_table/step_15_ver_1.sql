@@ -1,4 +1,4 @@
-INSERT INTO reg_14_09_21_t1 (
+INSERT INTO reg_12_12_21_t1 (
 id,
 NAME,
 died,
@@ -60,7 +60,7 @@ trim(personalinfo)  personalinfo,
 trim(DATE_OF_LIQUID)  DATE_OF_LIQUID,
 trim(STATUTUL_DATE)  STATUTUL_DATE
 	 
-	FROM vw2
+	FROM vw_2
 	) VB 
 	
 	ORDER BY 
