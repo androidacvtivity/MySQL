@@ -1,4 +1,3 @@
-
 SELECT 
 IDNO,
 DATA_REG,
@@ -13,7 +12,7 @@ DATE_OF_LIQUID,
 STATUTUL_DATE,
 STATUTUL
 
-FROM registru_md_12_12_2021
+FROM registru_md_01_17_2022
 
 WHERE 
 1=1
