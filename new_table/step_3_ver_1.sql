@@ -1,10 +1,8 @@
-
-
 SELECT *
-FROM registru_md_12_12_2021;-- 248296
+FROM registru_md_01_17_2022; -- 
 
 SELECT COUNT(*) AS CNT
-FROM registru_md_12_12_2021;-- 248296
+FROM registru_md_01_17_2022; -- 24840
 
 SELECT *
 FROM registru_md_14_09_2021
