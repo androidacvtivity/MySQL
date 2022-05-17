@@ -12,11 +12,9 @@ DATE_OF_LIQUID,
 STATUTUL_DATE,
 STATUTUL
 
-FROM registru_md_04_26_SELECT t1.row1 r1, COUNT(*) hits
-FROM table1 t1
-GROUP BY
-	r1
-2022
+FROM registru_md_05_16_2022
+
+
 
 WHERE 
 1=1
