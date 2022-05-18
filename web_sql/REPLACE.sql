@@ -3,7 +3,11 @@ SELECT * FROM reg_05_16_22_vw
 		
 		WHERE 
 		 
-		 REPLACE(DEN_COM_VW,'ș','s') LIKE '%Bancu%' 
+		
+		 replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(DEN_COM_VW,'Ţ','T')
+,'ţ','t'),'Ş','S'),'ş','s'),'ă','a'),'Î','I'),'Ă','A'),'î','i'),'â','a'),'Â','A')
+		 
+		 LIKE '%Bancu%' 
 		 
 		 or LISTA_FOND_VW LIKE '%Bancu%'
 		 or IDNO_VW LIKE '%Bancu%'
