@@ -1,5 +1,8 @@
 SELECT *
-FROM registru_md_03_21_2022; 
+FROM registru_md_06_06_2022
+ORDER BY 
+IDNO
+; 
 
 SELECT COUNT(*) AS CNT
 FROM registru_md_01_17_2022; -- 24840
