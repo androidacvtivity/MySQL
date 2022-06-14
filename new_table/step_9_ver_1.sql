@@ -1,5 +1,5 @@
 SELECT COUNT(*) AS CNT
-FROM registru_md_06_06_2022 
+FROM registru_md_06_14_2022 
 UNION ALL 
 SELECT COUNT(*) AS CNT
 FROM vw_1
