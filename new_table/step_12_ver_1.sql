@@ -35,27 +35,27 @@ select `vb`.`id` AS `id`,(case when ((`vb`.`NAME` is null) or (`vb`.`NAME` = '')
 FROM (
 
 SELECT 
-`id_registru_mprod_06_06_22`.`ID` AS `id`,
+`id_registru_mprod_06_20_22`.`ID` AS `id`,
 replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(REPLACE
-(replace(`id_registru_mprod_06_06_22`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
+(replace(`id_registru_mprod_06_20_22`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
 
 NULL AS `died`,
-`id_registru_mprod_06_06_22`.`IDNO` AS `description`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_06_22`.`ADRESA`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'Â','A') AS `galaxy`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_06_22`.`FORMA_ORG`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `star`,
+`id_registru_mprod_06_20_22`.`IDNO` AS `description`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_20_22`.`ADRESA`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'Â','A') AS `galaxy`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_20_22`.`FORMA_ORG`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `star`,
 NULL AS `dob`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_06_22`.`LIST_COND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `serviciu`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_06_22`.`LISTA_FOND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `sectia`,
-`id_registru_mprod_06_06_22`.`GEN_ACT_NE_LIC` AS `depart`,
-`id_registru_mprod_06_06_22`.`GEN_ACT_LIC` AS `phone`,
-`id_registru_mprod_06_06_22`.`STATUTUL` AS `phoneinternal`
-,date_format(`id_registru_mprod_06_06_22`.`DATA_REG`,'%Y-%m-%d') AS `email`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_20_22`.`LIST_COND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `serviciu`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_mprod_06_20_22`.`LISTA_FOND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `sectia`,
+`id_registru_mprod_06_20_22`.`GEN_ACT_NE_LIC` AS `depart`,
+`id_registru_mprod_06_20_22`.`GEN_ACT_LIC` AS `phone`,
+`id_registru_mprod_06_20_22`.`STATUTUL` AS `phoneinternal`
+,date_format(`id_registru_mprod_06_20_22`.`DATA_REG`,'%Y-%m-%d') AS `email`,
 NULL AS `personalinfo`, 
-`id_registru_mprod_06_06_22`.`DATE_OF_LIQUID`  AS `DATE_OF_LIQUID`,
-`id_registru_mprod_06_06_22`.`STATUTUL_DATE`  AS `STATUTUL_DATE`
+`id_registru_mprod_06_20_22`.`DATE_OF_LIQUID`  AS `DATE_OF_LIQUID`,
+`id_registru_mprod_06_20_22`.`STATUTUL_DATE`  AS `STATUTUL_DATE`
 
 
-from `id_registru_mprod_06_06_22`
+from `id_registru_mprod_06_20_22`
 
 
 ) `vb`) `vb` where (0 <> 1) order by `vb`.`email`
