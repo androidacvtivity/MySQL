@@ -1,4 +1,7 @@
-UPDATE  reg_06_14_22_v2
-
-SET phoneinternal =  replace(replace(replace(replace(replace(phoneinternal,'Ţ','T')
+UPDATE reg_06_27_22_v2 SET phoneinternal =
+REPLACE(
+REPLACE(
+REPLACE(
+REPLACE(
+REPLACE(phoneinternal,'Ţ','T')
 ,'ţ','t'),'Ş','S'),'ş','s'),'ă','a');
