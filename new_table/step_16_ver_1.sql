@@ -1,9 +1,9 @@
-CREATE TABLE `reg_25_07_22_v2` (
-	`id` INT  NOT NULL AUTO_INCREMENT,
+CREATE TABLE `reg_01_08_22_v2` (
+	`id` INT(10) NOT NULL AUTO_INCREMENT,
 	`name` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`died` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`description` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
-	`galaxy` VARCHAR(255) NULL DEFAUprod_25_07_22LT NULL COLLATE 'utf8mb4_unicode_ci',
+	`galaxy` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`star` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`dob` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`serviciu` VARCHAR(1024) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
@@ -19,4 +19,5 @@ CREATE TABLE `reg_25_07_22_v2` (
 )
 COLLATE='utf8mb4_unicode_ci'
 ENGINE=InnoDB
+
 ;
