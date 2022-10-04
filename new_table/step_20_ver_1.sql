@@ -1,4 +1,4 @@
-INSERT INTO reg_12_09_22_vw
+INSERT INTO reg_03_10_22_vw
 (
  id_vw,
  DEN_COM_VW,
@@ -36,7 +36,7 @@ SELECT
  DATE_OF_LIQUID,
  STATUTUL_DATE
 
-	FROM reg_12_09_22_v2
+	FROM reg_03_10_22_v2
 	
 	WHERE 
 	1 
