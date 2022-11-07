@@ -1,4 +1,5 @@
-UPDATE reg_10_31_22_vw
-SET act = 'October 31, 2022';
+UPDATE reg_11_07_22_vw
+SET act = 'November 07, 2022';
 
-SELECT * FROM reg_10_31_22_vw;	
+SELECT * FROM reg_11_07_22_vw;	
+prod_11_07_22
