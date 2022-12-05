@@ -1,4 +1,4 @@
-INSERT INTO reg_11_28_22_t1 (
+INSERT INTO reg_12_05_22_t1 (
 id,
 NAME,
 died,
