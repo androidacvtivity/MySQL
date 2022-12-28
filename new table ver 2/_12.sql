@@ -1,4 +1,4 @@
-INSERT INTO  reg_12_19_22_v2
+INSERT INTO  reg_12_19_22_v2_ver2
 (
    id, 
 	name,
@@ -15,10 +15,11 @@ INSERT INTO  reg_12_19_22_v2
 	email,
 	personalinfo,
 	DATE_OF_LIQUID,
-	STATUTUL_DATE
-
+	STATUTUL_DATE,
+	CUATM, 
+   LISTA_BENIF
 )
-
+-- 
 SELECT 
 
     id,
@@ -40,9 +41,11 @@ SELECT
 	 email,
 	 personalinfo,
 	 DATE_OF_LIQUID,
-	 STATUTUL_DATE
+	 STATUTUL_DATE,
+	 CUATM,
+	 LISTA_BENIF
 	 
-FROM reg_12_19_22_t1
+FROM reg_12_19_22_t1_ver2
 
 WHERE
 1;

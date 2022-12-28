@@ -14,7 +14,10 @@ SELECT
 `vb`.`email` AS `email`,
 `vb`.`personalinfo` AS `personalinfo`, 
 `vb`.`DATE_OF_LIQUID` AS `DATE_OF_LIQUID`,
-`vb`.`STATUTUL_DATE` AS `STATUTUL_DATE`
+`vb`.`STATUTUL_DATE` AS `STATUTUL_DATE`,
+ vb.CUATM,
+ vb.LISTA_BENIF
+
 FROM (
 
 
@@ -31,31 +34,37 @@ select `vb`.`id` AS `id`,(case when ((`vb`.`NAME` is null) or (`vb`.`NAME` = '')
 (case when ((`vb`.`email` is null) or (`vb`.`email` = '')) then 'empty field' else `vb`.`email` end) AS `email`,
 (case when ((`vb`.`personalinfo` is null) or (`vb`.`personalinfo` = '')) then 'empty field' else `vb`.`personalinfo` end) AS `personalinfo`,
 (case when ((`vb`.`DATE_OF_LIQUID` is null) or (`vb`.`DATE_OF_LIQUID` = '')) then 'empty field' else `vb`.`DATE_OF_LIQUID` end) AS `DATE_OF_LIQUID`,
-(case when ((`vb`.`STATUTUL_DATE` is null) or (`vb`.`STATUTUL_DATE` = '')) then 'empty field' else `vb`.`STATUTUL_DATE` end) AS `STATUTUL_DATE` 
+(case when ((`vb`.`STATUTUL_DATE` is null) or (`vb`.`STATUTUL_DATE` = '')) then 'empty field' else `vb`.`STATUTUL_DATE` end) AS `STATUTUL_DATE`,
+(case when ((`vb`.`CUATM` is null) or (`vb`.`CUATM` = '')) then 'empty field' else `vb`.`CUATM` end) AS `CUATM`,  
+(case when ((`vb`.`LISTA_BENIF` is null) or (`vb`.`LISTA_BENIF` = '')) then 'empty field' else `vb`.`LISTA_BENIF` end) AS `LISTA_BENIF`  
 FROM (
 
 SELECT 
-`id_registru_12_19_22`.`ID` AS `id`,
+`id_registru_12_19_22_ver2`.`ID` AS `id`,
 replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(REPLACE
-(replace(`id_registru_12_19_22`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
+(replace(`id_registru_12_19_22_ver2`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
 
 NULL AS `died`,
-`id_registru_12_19_22`.`IDNO` AS `description`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22`.`ADRESA`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'Â','A') AS `galaxy`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22`.`FORMA_ORG`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `star`,
+`id_registru_12_19_22_ver2`.`IDNO` AS `description`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22_ver2`.`ADRESA`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'Â','A') AS `galaxy`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22_ver2`.`FORMA_ORG`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `star`,
 NULL AS `dob`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22`.`LIST_COND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `serviciu`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22`.`LISTA_FOND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `sectia`,
-`id_registru_12_19_22`.`GEN_ACT_NE_LIC` AS `depart`,
-`id_registru_12_19_22`.`GEN_ACT_LIC` AS `phone`,
-`id_registru_12_19_22`.`STATUTUL` AS `phoneinternal`
-,date_format(`id_registru_12_19_22`.`DATA_REG`,'%Y-%m-%d') AS `email`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22_ver2`.`LIST_COND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `serviciu`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_12_19_22_ver2`.`LISTA_FOND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `sectia`,
+`id_registru_12_19_22_ver2`.`GEN_ACT_NE_LIC` AS `depart`,
+`id_registru_12_19_22_ver2`.`GEN_ACT_LIC` AS `phone`,
+`id_registru_12_19_22_ver2`.`STATUTUL` AS `phoneinternal`
+,date_format(`id_registru_12_19_22_ver2`.`DATA_REG`,'%Y-%m-%d') AS `email`,
 NULL AS `personalinfo`, 
-`id_registru_12_19_22`.`DATE_OF_LIQUID`  AS `DATE_OF_LIQUID`,
-`id_registru_12_19_22`.`STATUTUL_DATE`  AS `STATUTUL_DATE`
+`id_registru_12_19_22_ver2`.`DATE_OF_LIQUID`  AS `DATE_OF_LIQUID`,
+`id_registru_12_19_22_ver2`.`STATUTUL_DATE`  AS `STATUTUL_DATE`,
+CUATM,
+LISTA_BENIF
 
 
-from `id_registru_12_19_22`
+from `id_registru_12_19_22_ver2`
 
 
-) `vb`) `vb` where (0 <> 1) order by `vb`.`email`
+ ) `vb`
+
+) `vb` where (0 <> 1) order by `vb`.`email`
