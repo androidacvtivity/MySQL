@@ -26,6 +26,12 @@ SELECT
 												INNER JOIN vw_cuatm C ON C.CODUL = TRIM(L.CODUL7) 
 		
 		
+		WHERE 
+		
+      -- D.IDNO_VW = 1022600055780
+
+
+      L.CODUL7 = '4141000' 	
 		ORDER BY
 		D.id_vw 
 		
