@@ -29,11 +29,11 @@ SELECT
 		
 		
 		WHERE 
-		
+		1
       -- D.IDNO_VW = 1022600055780
 
 
-      L.CODUL7 = '4141000' 	
+    --  L.CODUL7 = '4141000' 	
 		ORDER BY
 		D.id_vw 
 		
