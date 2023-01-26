@@ -1,3 +1,6 @@
+SELECT CONCAT('%','2500000',';%')  STRING_DUAL
+ 	
+ 	FROM DUAL;
+ 
+ 
   
-  
-  (DD.CUATM_FULL LIKE '%'||:pCOD_CUATM||';%') AND   

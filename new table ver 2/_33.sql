@@ -1,0 +1,11 @@
+CREATE TABLE `CL_TARI` (
+	`CODUL` VARCHAR(254) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+   
+	`DENUMIRE` VARCHAR(1024) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci'
+   
+
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=INNODB
+;
+

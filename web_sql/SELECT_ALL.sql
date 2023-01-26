@@ -1,13 +1,13 @@
 SELECT *
 
-FROM start3v2
+FROM start3v3
 
 WHERE 
 
 
 -- NAME LIKE '%Negru%'
 
-star  LIKE '%Cahul%'
+sectia  LIKE '%colectarea datelor%'
 
 -- NAME LIKE '%Mititelu%'
 
