@@ -1,0 +1,49 @@
+SELECT  
+ D.id_vw,
+ D.DEN_COM_VW,
+ D.died,
+ D.IDNO_VW,
+ D.ADRESA_VW,
+ C.DENUMIRE DENUMIRE_CUATM,
+ C.RAION_DENUMIRE,
+ CONCAT(C.DENUMIRE,' - ',RAION_DENUMIRE) AS FULL_NAME,
+ D.FORMA_ORG_VW, 
+ D.dob,
+ D.LIST_COND_VW,
+ D.LISTA_FOND_VW,
+ D.GEN_ACT_NE_LIC_VW,
+ D.GEN_ACT_LIC_VW,
+ D.STATUTUL_VW,
+ D.DATA_REG_VW,
+ D.personalinfo,
+ D.DATE_OF_LIQUID,
+ D.STATUTUL_DATE,
+ D.CUATM, 
+ D.LISTA_BENIF,
+ ct.CODUL TARI,
+ ct.DENUMIRE TARI_DENUMIRE,
+ L.CODUL4,
+ L.CODUL7,
+ C.FULL_CODE
+		
+		FROM 	reg_12_19_22_vw_ver2 D  
+		
+		                                 LEFT  JOIN cl_cuatm74 L ON TRIM(D.CUATM) = TRIM(L.CODUL4) 
+    												LEFT JOIN vw_cuatm_ver2 C ON C.CODUL = TRIM(L.CODUL7) 
+												
+										   	   LEFT JOIN cl_tari ct ON    D.LISTA_BENIF LIKE CONCAT('%(',TRIM(ct.CODUL),')%')  				
+		
+		WHERE 
+		1
+		
+	--	AND L.CODUL7 IS NULL 
+	-- 	AND C.FULL_CODE LIKE CONCAT('%','2500000',';%')  
+    
+	 
+	    AND D.IDNO_VW = 1022600053867
+
+
+    --  L.CODUL7 = '4141000' 	
+		ORDER BY
+		D.id_vw 
+		
