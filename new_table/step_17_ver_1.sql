@@ -1,4 +1,4 @@
-INSERT INTO  reg_03_20_23_v2
+INSERT INTO  reg_03_27_23_v2
 (
    id, 
 	name,
@@ -26,7 +26,7 @@ SELECT
 	 died,
 	 description,
 	 
-	 replace(replace(replace(REPLACE(galaxy,'Ţ','T'),'ţ','t'),'Ş','S'),'ş','s') galaxy,
+	 replace(replace(replace(replace(galaxy,'Ţ','T'),'ţ','t'),'Ş','S'),'ş','s') galaxy,
 
 	 replace(replace(replace(replace(star,'Ţ','T'),'ţ','t'),'Ş','S'),'ş','s') star,
 	 dob,
@@ -42,7 +42,7 @@ SELECT
 	 DATE_OF_LIQUID,
 	 STATUTUL_DATE
 	 
-FROM reg_03_20_23_t1
+FROM reg_03_27_23_t1
 
 WHERE
 1;
