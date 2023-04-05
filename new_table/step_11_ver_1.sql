@@ -1,6 +1,6 @@
 SET @row_number = 0;
 	 
- 	INSERT INTO id_registru_03_27_23 (
+ 	INSERT INTO id_registru_04_03_23 (
  	id,
   IDNO,
  	 DATA_REG,
