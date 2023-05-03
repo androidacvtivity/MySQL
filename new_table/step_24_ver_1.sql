@@ -1,10 +1,12 @@
-SELECT 
-ID_VW, 
-COUNT(DISTINCT ID_VW) AS CNT
+SELECT  *
+
+
 	FROM reg_05_02_23_vw
 	
-	GROUP BY 
-ID_VW	
+	WHERE 
+	ID_VW = 1
 	
-HAVING 
-	COUNT(ID_VW) > 1
+	
+	
+-- HAVING 
+-- 	COUNT(ID_VW) > 1
