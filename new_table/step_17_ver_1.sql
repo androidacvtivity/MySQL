@@ -1,4 +1,4 @@
-INSERT INTO  reg_04_25_23_v2
+INSERT INTO  reg_05_02_23_v2
 (
    id, 
 	name,
@@ -42,7 +42,7 @@ SELECT
 	 DATE_OF_LIQUID,
 	 STATUTUL_DATE
 	 
-FROM reg_04_25_23_t1
+FROM reg_05_02_23_t1
 
 WHERE
 1;
