@@ -1,8 +1,9 @@
+SET autocommit=0;
 SET @row_number = 0;
 	 
- 	INSERT INTO id_registru_06_12_23 (
- 	id,
-  IDNO,
+ 	INSERT INTO id_registru_06_19_23 (
+ 	 id,
+     IDNO,
  	 DATA_REG,
  	 DEN_COM,
  	 FORMA_ORG,
@@ -43,4 +44,6 @@ SET @row_number = 0;
 
 		 
 		 ORDER BY 
-		 DATA_REG DESC
+		 DATA_REG DESC;
+		 COMMIT;
+SET autocommit=1;
