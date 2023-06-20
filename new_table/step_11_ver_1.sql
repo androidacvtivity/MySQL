@@ -1,8 +1,8 @@
 SET @row_number = 0;
 	 
  	INSERT INTO id_registru_06_12_23 (
- 	id,
-  IDNO,
+ 	 id,
+     IDNO,
  	 DATA_REG,
  	 DEN_COM,
  	 FORMA_ORG,
