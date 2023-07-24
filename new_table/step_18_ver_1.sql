@@ -1,4 +1,4 @@
-UPDATE reg_07_17_23_v2 SET phoneinternal =
+UPDATE reg_07_24_23_v2 SET phoneinternal =
 REPLACE(
 REPLACE(
 REPLACE(
