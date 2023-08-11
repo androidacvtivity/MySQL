@@ -1,5 +1,5 @@
 
-CREATE DATABASE `prod_07_31_23` /*!40100 COLLATE 'utf8mb4_unicode_ci' */
+CREATE DATABASE `prod_08_07_23` /*!40100 COLLATE 'utf8mb4_unicode_ci' */
 
 
 

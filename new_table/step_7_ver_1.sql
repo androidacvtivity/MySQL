@@ -12,7 +12,7 @@ DATE_OF_LIQUID,
 STATUTUL_DATE,
 STATUTUL
 
-FROM registru_md_07_31_2023
+FROM registru_md_08_07_2023
 
 
 
