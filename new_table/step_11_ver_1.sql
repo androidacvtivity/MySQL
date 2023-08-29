@@ -1,7 +1,7 @@
 SET autocommit=0;
 SET @row_number = 0;
 	 
- 	INSERT INTO id_registru_08_21_23 (
+ 	INSERT INTO id_registru_08_28_23 (
  	 id,
      IDNO,
  	 DATA_REG,
