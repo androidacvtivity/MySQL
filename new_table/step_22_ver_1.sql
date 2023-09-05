@@ -1,4 +1,5 @@
-UPDATE reg_08_28_23_vw
-SET act = 'August 28, 2023';
+UPDATE reg_09_04_23_vw
+SET act = 'September 04, 2023';
 
 
+prod_09_04_23
