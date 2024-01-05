@@ -1,4 +1,4 @@
-CREATE TABLE `registru_md_12_26_2023` (
+CREATE TABLE `registru_md_01_02_2024` (
 
 	`IDNO` BIGINT(19) NULL DEFAULT NULL,
 	`DATA_REG` DATE NULL DEFAULT NULL,
@@ -15,4 +15,3 @@ CREATE TABLE `registru_md_12_26_2023` (
 )
 COLLATE='utf8mb4_unicode_ci'
 ENGINE=InnoDB
-;
