@@ -1,4 +1,4 @@
-SELECT  *
+SELECT  
 
 
 	FROM reg_05_02_23_vw
