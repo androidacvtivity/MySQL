@@ -1,4 +1,6 @@
+
 UPDATE reg_05_14_24_v2 SET phoneinternal =
+
 REPLACE(
 REPLACE(
 REPLACE(

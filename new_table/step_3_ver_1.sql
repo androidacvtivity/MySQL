@@ -1,5 +1,6 @@
-SELECT *
+
 FROM registru_md_05_14_2024
+
 ORDER BY 
 IDNO
 ; 

@@ -1,5 +1,6 @@
 SELECT 
 
+
 trim(`registru_md_05_14_2024`.`IDNO`) AS `IDNO`,
 `registru_md_05_14_2024`.`DATA_REG` AS `DATA_REG`,
 trim(`registru_md_05_14_2024`.`DEN_COM`) AS `DEN_COM`,
@@ -13,4 +14,5 @@ replace(trim(`registru_md_05_14_2024`.`GEN_ACT_LIC`),' ','') AS `GEN_ACT_LIC`,
 `registru_md_05_14_2024`.`STATUTUL_DATE` AS `STATUTUL_DATE`,
 trim(`registru_md_05_14_2024`.`STATUTUL`) AS `STATUTUL` 
 from `registru_md_05_14_2024` order by `registru_md_05_14_2024`.`DATA_REG` desc
+
 

@@ -1,4 +1,6 @@
+
 INSERT INTO  reg_05_14_24_v2
+
 (
    id, 
 	name,
@@ -42,7 +44,10 @@ SELECT
 	 DATE_OF_LIQUID,
 	 STATUTUL_DATE
 	 
+
 FROM reg_05_14_24_t1
+
+
 
 WHERE
 1;

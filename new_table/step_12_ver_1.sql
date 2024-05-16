@@ -35,6 +35,7 @@ select `vb`.`id` AS `id`,(case when ((`vb`.`NAME` is null) or (`vb`.`NAME` = '')
 FROM (
 
 SELECT 
+
 `id_registru_05_14_24`.`ID` AS `id`,
 replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(REPLACE
 (replace(`id_registru_05_14_24`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
@@ -56,6 +57,7 @@ NULL AS `personalinfo`,
 
 
 from `id_registru_05_14_24`
+
 
 
 ) `vb`) `vb` where (0 <> 1) order by `vb`.`email`
