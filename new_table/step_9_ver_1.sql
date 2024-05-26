@@ -21,7 +21,7 @@ FROM reg_05_14_24_vw
 
 
 SELECT *
-FROM reg_05_14_24_vw;
+FROM reg_01_15_24_vw;
   
 
 
