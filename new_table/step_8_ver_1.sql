@@ -15,4 +15,3 @@ replace(trim(`registru_md_05_14_2024`.`GEN_ACT_LIC`),' ','') AS `GEN_ACT_LIC`,
 trim(`registru_md_05_14_2024`.`STATUTUL`) AS `STATUTUL` 
 from `registru_md_05_14_2024` order by `registru_md_05_14_2024`.`DATA_REG` desc
 
-

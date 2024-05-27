@@ -1,12 +1,9 @@
+--  It is good algorithm for insert data in Mysql ?
 SET autocommit=0;
 SET @row_number = 0;
 	 
-
- 	INSERT INTO id_registru_05_14_24 (
-
-
-
- 	 id,
+	 INSERT INTO id_registru_05_20_24 (
+	 id,
      IDNO,
  	 DATA_REG,
  	 DEN_COM,

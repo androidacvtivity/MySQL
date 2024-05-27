@@ -1,5 +1,7 @@
+CREATE TABLE `registru_md_05_20_2024` (
 
-CREATE TABLE `registru_md_05_14_2024` (
+
+
 
 
 	`IDNO` BIGINT(19) NULL DEFAULT NULL,
