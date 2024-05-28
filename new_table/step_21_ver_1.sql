@@ -1,5 +1,5 @@
 
-ALTER TABLE reg_05_14_24_vw
+ALTER TABLE reg_05_27_24_vw
 
 ADD COLUMN act VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci' 
 AFTER personalinfo;
