@@ -13,7 +13,7 @@ STATUTUL_DATE,
 STATUTUL
 
 
-FROM registru_md_05_14_2024
+FROM registru_md_06_17_2024
 
 
 
