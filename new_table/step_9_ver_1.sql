@@ -23,6 +23,9 @@ FROM reg_06_19_24_vw
 SELECT *
 FROM reg_06_19_24_vw;
   
+  
+UPDATE  reg_06_19_24_vw 
+SET act = NULL; 
 
 
 
