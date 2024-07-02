@@ -1,5 +1,5 @@
 
-INSERT INTO reg_06_17_24_t1 (
+INSERT INTO reg_07_01_24_t1 (
 
 id,
 NAME,
