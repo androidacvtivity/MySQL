@@ -1,5 +1,5 @@
 SELECT *
-FROM registru_md_05_27_2024
+FROM registru_md_07_02_2024
 ORDER BY 
 IDNO
 ; 
