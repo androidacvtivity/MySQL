@@ -24,8 +24,8 @@ SELECT *
 FROM reg_07_08_24_vw;
   
   
--- UPDATE  reg_06_19_24_vw 
--- SET act = NULL; 
+UPDATE  reg_07_08_24_vw 
+SET act = NULL; 
 
 
 
