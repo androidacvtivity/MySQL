@@ -21,7 +21,7 @@ FROM reg_07_29_24_vw
 
 
 SELECT *
-FROM reg_07_29_24_vw;
+FROM reg_07_22_24_vw;
   
   
 UPDATE  reg_07_08_24_vw 
