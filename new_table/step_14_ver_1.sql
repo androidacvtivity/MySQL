@@ -1,5 +1,4 @@
-
-CREATE TABLE `reg_07_29_24_t1` (
+CREATE TABLE `reg_08_05_24_t1` (
 
 	`id` INT  NOT NULL AUTO_INCREMENT,
 	`name` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
