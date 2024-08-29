@@ -1,5 +1,5 @@
 
-UPDATE reg_08_12_24_vw
-SET act = 'August 12, 2024';
+UPDATE reg_08_26_24_vw
+SET act = 'August 26, 2024';
 
 
