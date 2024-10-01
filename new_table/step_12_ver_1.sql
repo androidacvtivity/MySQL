@@ -36,27 +36,27 @@ FROM (
 
 SELECT 
 
-`id_registru_09_23_24`.`ID` AS `id`,
+`id_registru_09_30_24`.`ID` AS `id`,
 replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(REPLACE
-(replace(`id_registru_09_23_24`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
+(replace(`id_registru_09_30_24`.`DEN_COM`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'"',''),'Â','A') AS `NAME`,
 
 NULL AS `died`,
-`id_registru_09_23_24`.`IDNO` AS `description`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_23_24`.`ADRESA`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'Â','A') AS `galaxy`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_23_24`.`FORMA_ORG`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `star`,
+`id_registru_09_30_24`.`IDNO` AS `description`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_30_24`.`ADRESA`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'"',''),'Â','A') AS `galaxy`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_30_24`.`FORMA_ORG`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `star`,
 NULL AS `dob`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_23_24`.`LIST_COND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `serviciu`,
-replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_23_24`.`LISTA_FOND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `sectia`,
-`id_registru_09_23_24`.`GEN_ACT_NE_LIC` AS `depart`,
-`id_registru_09_23_24`.`GEN_ACT_LIC` AS `phone`,
-`id_registru_09_23_24`.`STATUTUL` AS `phoneinternal`
-,date_format(`id_registru_09_23_24`.`DATA_REG`,'%Y-%m-%d') AS `email`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_30_24`.`LIST_COND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `serviciu`,
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(`id_registru_09_30_24`.`LISTA_FOND`,'Î','I'),'Ă','A'),'Ț','T'),'Ș','S'),'Societatea cu Raspundere Limitata','SRL'),'Intreprinzator Individual','II'),'î','i'),'ț','t'),'ș','s'),'ă','a'),'Societate cu Raspundere Limitata','SRL'),'â','a'),'Societatea cu raspundere Limitata','SRL'),'Societatea cu raspundere Limitata','SRL'),'Â','A') AS `sectia`,
+`id_registru_09_30_24`.`GEN_ACT_NE_LIC` AS `depart`,
+`id_registru_09_30_24`.`GEN_ACT_LIC` AS `phone`,
+`id_registru_09_30_24`.`STATUTUL` AS `phoneinternal`
+,date_format(`id_registru_09_30_24`.`DATA_REG`,'%Y-%m-%d') AS `email`,
 NULL AS `personalinfo`, 
-`id_registru_09_23_24`.`DATE_OF_LIQUID`  AS `DATE_OF_LIQUID`,
-`id_registru_09_23_24`.`STATUTUL_DATE`  AS `STATUTUL_DATE`
+`id_registru_09_30_24`.`DATE_OF_LIQUID`  AS `DATE_OF_LIQUID`,
+`id_registru_09_30_24`.`STATUTUL_DATE`  AS `STATUTUL_DATE`
 
 
-from `id_registru_09_23_24`
+from `id_registru_09_30_24`
 
 
 
