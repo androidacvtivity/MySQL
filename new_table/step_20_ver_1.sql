@@ -1,4 +1,4 @@
-INSERT INTO reg_10_07_24_vw
+INSERT INTO reg_10_21_24_vw
 
 (
  id_vw,
@@ -38,7 +38,7 @@ SELECT
  STATUTUL_DATE
 
 
-	FROM reg_10_07_24_v2
+	FROM reg_10_21_24_v2
 
 	
 	WHERE 
