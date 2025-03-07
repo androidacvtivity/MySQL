@@ -1,4 +1,4 @@
-INSERT INTO  reg_03_02_25_v2
+INSERT INTO  reg_12_09_24_v2
 
 (
    id, 
@@ -44,7 +44,7 @@ SELECT
 	 STATUTUL_DATE
 	 
 
-FROM reg_03_02_25_t1
+FROM reg_12_09_24_t1
 
 
 

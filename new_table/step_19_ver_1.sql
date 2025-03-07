@@ -1,4 +1,4 @@
-CREATE TABLE `reg_03_02_25_vw` (
+CREATE TABLE `reg_12_09_24_vw` (
 
 	`id_vw` BIGINT  NOT NULL DEFAULT '0',
 	`DEN_COM_VW` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
