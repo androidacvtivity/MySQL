@@ -1,3 +1,3 @@
-UPDATE registru_md_03_31_2025
+UPDATE registru_md_04_14_2025
 SET STATUTUL = CASE 
 WHEN  DATE_OF_LIQUID IS NULL THEN 'activ' ELSE 'lichidata' END;
