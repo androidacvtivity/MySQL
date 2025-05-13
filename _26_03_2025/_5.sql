@@ -37,7 +37,7 @@ FROM registru_md_04_12_2025;
 
 
 SELECT *
-FROM registru_md_04_12_2025;
+FROM reg_05_12_25_vw;
 
 
 
