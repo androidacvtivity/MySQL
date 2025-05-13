@@ -1,5 +1,5 @@
 SELECT COUNT(*) AS CNT
-FROM registru_md_04_14_2025
+FROM registru_md_04_12_2025
 UNION ALL 
 SELECT COUNT(*) AS CNT
 FROM vw_1
@@ -21,13 +21,18 @@ FROM reg_04_14_25_vw;
 
 
 SELECT *
-FROM reg_04_14_25_vw;
+FROM registru_md_04_12_2025
+ORDER BY 
+DATA_REG DESC
+
+;
   
   
 UPDATE  reg_07_08_24_vw 
 SET act = NULL; 
 
-
+DELETE
+FROM registru_md_04_12_2025;
 
 
 
