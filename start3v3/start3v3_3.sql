@@ -1,6 +1,3 @@
-
-
-
 SELECT *
 
 FROM start3v3
