@@ -21,3 +21,10 @@ CREATE TABLE `reg_05_12_25_v2` (
 COLLATE='utf8mb4_unicode_ci'
 ENGINE=InnoDB
 ;
+
+DELETE 
+FROM reg_05_12_25_v2;
+
+
+SELECT *
+FROM reg_05_12_25_v2;
