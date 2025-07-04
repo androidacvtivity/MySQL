@@ -1,4 +1,4 @@
-CREATE TABLE `id_registru_04_14_25` (
+CREATE TABLE `id_registru_06_30_25` (
 	`ID` BIGINT(19) NULL DEFAULT NULL,
 	`IDNO` BIGINT(19) NULL DEFAULT NULL,
 	`DATA_REG` DATE NULL DEFAULT NULL,
@@ -16,3 +16,9 @@ CREATE TABLE `id_registru_04_14_25` (
 COLLATE='utf8mb4_unicode_ci'
 ENGINE=InnoDB
 ;
+
+DELETE
+ FROM id_registru_06_30_25;
+ 
+ SELECT *
+ FROM id_registru_06_30_25;
