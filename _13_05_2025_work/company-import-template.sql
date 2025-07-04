@@ -1,6 +1,6 @@
 
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/company-2025.05.12.csv'
-INTO TABLE registru_md_05_12_2025
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/company-2025.06.30.csv'
+INTO TABLE registru_md_06_30_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'

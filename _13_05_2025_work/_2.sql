@@ -13,4 +13,12 @@ CREATE TABLE `registru_md_05_12_2025` (
 	`STATUTUL` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci'
 )
 COLLATE='utf8mb4_unicode_ci'
-ENGINE=InnoDB
+ENGINE=INNODB;
+
+
+
+DELETE
+ FROL id_registru_06_30_25;
+ 
+ SELECT *
+ FROL id_registru_06_30_25;
