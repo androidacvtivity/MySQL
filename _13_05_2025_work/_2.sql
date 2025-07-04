@@ -1,4 +1,4 @@
-CREATE TABLE `registru_md_05_12_2025` (
+CREATE TABLE `registru_md_06_30_2025` (
 	`IDNO` BIGINT(19) NULL DEFAULT NULL,
 	`DATA_REG` DATE NULL DEFAULT NULL,
 	`DEN_COM` VARCHAR(1024) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
@@ -18,7 +18,7 @@ ENGINE=INNODB;
 
 
 DELETE
- FROL id_registru_06_30_25;
+ FROM registru_md_06_30_2025;
  
  SELECT *
- FROL id_registru_06_30_25;
+ FROM registru_md_06_30_2025;
