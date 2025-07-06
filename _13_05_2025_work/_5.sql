@@ -21,9 +21,8 @@ FROM reg_05_12_25_vw;
 
 
 SELECT *
-FROM registru_md_04_12_2025
-ORDER BY 
-DATA_REG DESC
+FROM reg_05_12_25_vw
+
 
 ;
   
