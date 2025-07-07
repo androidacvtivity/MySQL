@@ -55,5 +55,3 @@ SET
   
   
   
-/* [15:28:39.191] SQL Error (1292): Truncated incorrect INTEGER value: '1.0056E+12' */
-/* [15:28:39.191] Affected rows: 0  Found rows: 0  Warnings: 0  Duration for 0 of 1 query: 0.000 sec. */
