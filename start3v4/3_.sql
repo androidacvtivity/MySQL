@@ -1,4 +1,4 @@
-SELECT DISTINCT TRIM(L.star)  star
+SELECT DISTINCT TRIM(L.depart)  depart
 FROM (
 	SELECT * 
 	FROM start3v4  
@@ -6,14 +6,14 @@ FROM (
 	statut = 'xxxxx'
 ) L
 WHERE 
-L.star IS NOT NULL 
-AND  L.star != ('empty field') 
-AND  L.star != '' 
+L.depart IS NOT NULL 
+AND  L.depart != ('empty field') 
+AND  L.depart != '' 
 GROUP BY 
-L.star
+L.depart
 HAVING
-L.star IS NOT NULL 
-AND  L.star != ('empty field') 
-AND  L.star != '' 
+L.depart IS NOT NULL 
+AND  L.depart != ('empty field') 
+AND  L.depart != '' 
 ORDER BY
-TRIM(L.star) DESC
+TRIM(L.depart) DESC

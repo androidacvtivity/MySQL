@@ -1,0 +1,43 @@
+CREATE TABLE `start3v5` (
+	`id` BIGINT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`statut` VARCHAR(255) NULL DEFAULT 'xxxxx' COLLATE 'utf8mb4_unicode_ci',
+	`description` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`galaxy` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`star` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`dob` VARCHAR(255) NULL DEFAULT '0000-00-00' COLLATE 'utf8mb4_unicode_ci',
+	`serviciu` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`sectia` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`depart` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`phone` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`phoneinternal` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`email` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`personalinfo` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`formname` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`phonemobil` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`created_date` DATETIME NOT NULL DEFAULT (CURRENT_TIMESTAMP),
+	`floor` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`office` VARCHAR(255) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	`remove_date` DATETIME NULL DEFAULT NULL,
+	`date_updated` DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+	`recoverydata` DATETIME NULL DEFAULT NULL,
+	`notice` VARCHAR(1024) NULL DEFAULT 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil.' COLLATE 'utf8mb4_unicode_ci',
+	`studio` VARCHAR(1024) NULL DEFAULT 'empty field' COLLATE 'utf8mb4_unicode_ci',
+	PRIMARY KEY (`id`) USING BTREE,
+	UNIQUE INDEX `index_id` (`id`) USING BTREE,
+	INDEX `index_name` (`name`) USING BTREE,
+	INDEX `index_description` (`description`) USING BTREE,
+	INDEX `index_galaxy` (`galaxy`) USING BTREE,
+	INDEX `index_star` (`star`) USING BTREE,
+	INDEX `index_serviciu` (`serviciu`) USING BTREE,
+	INDEX `index_sectia` (`sectia`) USING BTREE,
+	INDEX `index_depart` (`depart`) USING BTREE,
+	INDEX `index_phone` (`phone`) USING BTREE,
+	INDEX `index_email` (`email`) USING BTREE,
+	INDEX `index_phonemobil` (`phonemobil`) USING BTREE,
+	INDEX `index_died` (`statut`) USING BTREE
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=704
+;
