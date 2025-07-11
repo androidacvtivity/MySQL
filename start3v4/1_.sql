@@ -11,4 +11,5 @@
 		(NAME LIKE 'Gale%'
 		OR
 		depart LIKE  'metode statistice%'
+		-- 
 		)
