@@ -51,10 +51,9 @@ SELECT
 	 recoverydata,
 	 notice
 
-	FROM	start3v4
+	FROM	start3v5
 	
 	WHERE
 	
-	star IN ('Direcţia generală tehnologii informaţionale','Direcţia generală statistica întreprinderilor',
-	'Direcția generală metode și inovații statistice','Direcția generală management financiar')
+
 	

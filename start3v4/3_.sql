@@ -1,7 +1,7 @@
 SELECT DISTINCT TRIM(L.depart)  depart
 FROM (
 	SELECT * 
-	FROM start3v4  
+	FROM start3v5  
 	WHERE 
 	statut = 'xxxxx'
 ) L
