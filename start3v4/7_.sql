@@ -1,4 +1,4 @@
-SELECT DISTINCT TRIM(L.sectia)  sectia
+SELECT DISTINCT TRIM(L.serviciu)  serviciu
 FROM (
 	SELECT * 
 	FROM start3v5  
@@ -6,14 +6,14 @@ FROM (
 	statut = 'xxxxx'
 ) L
 WHERE 
-L.sectia IS NOT NULL 
-AND  L.sectia != ('empty field') 
-AND  L.sectia != '' 
+L.serviciu IS NOT NULL 
+AND  L.serviciu != ('empty field') 
+AND  L.serviciu != '' 
 GROUP BY 
-L.sectia
+L.serviciu
 HAVING
-L.sectia IS NOT NULL 
-AND  L.sectia != ('empty field') 
-AND  L.sectia != '' 
+L.serviciu IS NOT NULL 
+AND  L.serviciu != ('empty field') 
+AND  L.serviciu != '' 
 ORDER BY
-TRIM(L.sectia) DESC
+TRIM(L.serviciu) DESC

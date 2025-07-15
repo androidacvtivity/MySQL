@@ -14,4 +14,16 @@ name_id
 	'xxxxx' statut, 
 	'1' name_id
 	
-		FROM dual
+		FROM DUAL;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		SELECT *
+		FROM struct_bns
