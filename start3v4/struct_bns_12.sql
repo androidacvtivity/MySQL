@@ -6,3 +6,5 @@ statut,
 name_id
 
  FROM struct_bns
+ 
+ 
