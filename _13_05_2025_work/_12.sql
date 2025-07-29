@@ -19,4 +19,4 @@ SELECT
    personalinfo,
    DATE_OF_LIQUID,
    STATUTUL_DATE
-FROM reg_05_12_25_t1;
+FROM reg_07_28_25_t1;

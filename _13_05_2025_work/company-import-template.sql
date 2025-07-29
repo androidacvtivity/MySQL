@@ -1,6 +1,6 @@
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/company-2025.07.28.csv'
-INTO TABLE id_registru_07_28_25
+INTO TABLE registru_md_07_28_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'
