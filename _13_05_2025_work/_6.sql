@@ -18,7 +18,7 @@ ENGINE=InnoDB
 ;
 
 DELETE
- FROM id_registru_06_30_25;
+ FROM id_registru_07_28_25;
  
  SELECT *
- FROM id_registru_06_30_25;
+ FROM id_registru_07_28_25;
