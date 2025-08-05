@@ -1,0 +1,1 @@
+SELECT id, type, name, name_id FROM struct_bns ORDER BY id ASC
