@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `struct_bns` (
 ) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dumping data for table u331875177_db2.struct_bns: ~60 rows (approximately)
-INSERT INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
+REPLACE INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(1, 'star', 'Director general', 'xxxxx', '1'),
 	(2, 'star', 'Directori generali adjuncţi', 'xxxxx', '2'),
 	(3, 'serviciu', 'Cabinetul directorului general', 'xxxxx', '3'),
@@ -82,10 +82,10 @@ INSERT INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(54, 'sectia', 'Secția juridică', 'xxxxx', '54'),
 	(55, 'depart', 'Direcția resurse umane', 'xxxxx', '55'),
 	(56, 'sectia', 'Secția managementul documentelor', 'xxxxx', '56'),
-	(57, 'depart', 'Centrul regional pentru statistică Chişinău', 'xxxxx', '57'),
-	(58, 'depart', 'Centrul regional pentru statistică Nord', 'xxxxx', '58'),
-	(59, 'depart', 'Centrul regional pentru statistică Centru', 'xxxxx', '59'),
-	(60, 'depart', 'Centrul regional pentru statistică Sud', 'xxxxx', '60');
+	(57, 'star', 'Centrul regional pentru statistică Chişinău', 'xxxxx', '57'),
+	(58, 'star', 'Centrul regional pentru statistică Nord', 'xxxxx', '58'),
+	(59, 'star', 'Centrul regional pentru statistică Centru', 'xxxxx', '59'),
+	(60, 'star', 'Centrul regional pentru statistică Sud', 'xxxxx', '60');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
