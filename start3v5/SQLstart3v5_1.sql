@@ -5,4 +5,13 @@ SELECT vb.*
 	    
 	   -- AND depart LIKE ''
 	    
-	    AND serviciu <> 'empty field'
+	    AND serviciu <> 'empty field';
+	    
+	    
+	    SELECT COUNT(*)
+	    
+	     FROM start3v5 
+	     
+	      WHERE 
+	      1=1
+	       AND (statut = 'xxxxx') 
