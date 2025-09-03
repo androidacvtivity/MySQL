@@ -17,11 +17,11 @@ SELECT COUNT(*) AS CNT
 FROM reg_09_01_25_v2
 UNION ALL 
 SELECT COUNT(*) AS CNT
-FROM reg_05_12_25_vw;
+FROM reg_09_01_25_vw;
 
 
 SELECT *
-FROM reg_05_12_25_vw
+FROM reg_09_01_25_vw
 
 
 ;
