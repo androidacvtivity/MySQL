@@ -1,4 +1,4 @@
-INSERT INTO  reg_05_12_25_v2 (
+INSERT INTO  reg_09_01_25_v2 (
    id, name, died, description, galaxy, star, dob, serviciu, sectia, depart,
    phone, phoneinternal, email, personalinfo, DATE_OF_LIQUID, STATUTUL_DATE
 )
@@ -19,4 +19,4 @@ SELECT
    personalinfo,
    DATE_OF_LIQUID,
    STATUTUL_DATE
-FROM reg_07_28_25_t1;
+FROM reg_09_01_25_t1;
