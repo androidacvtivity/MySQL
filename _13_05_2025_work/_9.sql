@@ -1,4 +1,4 @@
-CREATE TABLE `reg_09_01_25_t1` ( ----------------------------
+CREATE TABLE `reg_09_01_25_t1` (   
 
 	`id` INT  NOT NULL AUTO_INCREMENT,
 	`name` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
@@ -23,11 +23,11 @@ ENGINE=InnoDB
 ;
 
 DELETE 
-FROM reg_05_12_25_t1;
+FROM reg_09_01_25_t1;
 
 
 SELECT *
-FROM reg_05_12_25_t1;
+FROM reg_09_01_25_t1;
 
 
 
