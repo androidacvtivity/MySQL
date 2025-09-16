@@ -23,8 +23,8 @@ ENGINE=InnoDB
 ;
 
 DELETE 
-FROM reg_05_12_25_v2;
+FROM reg_09_01_25_v2;
 
 
 SELECT *
-FROM reg_05_12_25_v2;
+FROM reg_09_01_25_v2;
