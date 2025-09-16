@@ -23,4 +23,4 @@ ENGINE=InnoDB
 ;
 
 DELETE 
-FROM reg_05_12_25_vw;
+FROM reg_09_01_25_vw;
