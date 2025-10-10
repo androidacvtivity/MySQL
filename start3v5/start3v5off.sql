@@ -14,8 +14,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumping structure for table u331875177_db2.start3v5
-CREATE TABLE IF NOT EXISTS `start3v5` (
+-- Dumping structure for table u331875177_db2.start3v5off
+CREATE TABLE IF NOT EXISTS `start3v5off` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'empty field',
   `statut` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'xxxxx',
@@ -55,8 +55,8 @@ CREATE TABLE IF NOT EXISTS `start3v5` (
   KEY `index_died` (`statut`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=1019 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Dumping data for table u331875177_db2.start3v5: ~358 rows (approximately)
-INSERT INTO `start3v5` (`id`, `name`, `statut`, `description`, `galaxy`, `star`, `dob`, `serviciu`, `sectia`, `depart`, `phone`, `phoneinternal`, `email`, `personalinfo`, `formname`, `phonemobil`, `created_date`, `floor`, `office`, `remove_date`, `date_updated`, `recoverydata`, `notice`, `studio`) VALUES
+-- Dumping data for table u331875177_db2.start3v5off: ~358 rows (approximately)
+INSERT INTO `start3v5off` (`id`, `name`, `statut`, `description`, `galaxy`, `star`, `dob`, `serviciu`, `sectia`, `depart`, `phone`, `phoneinternal`, `email`, `personalinfo`, `formname`, `phonemobil`, `created_date`, `floor`, `office`, `remove_date`, `date_updated`, `recoverydata`, `notice`, `studio`) VALUES
 	(3, 'BANCU Vitalie', 'xxxxx', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Programator principal', 'Direcția generală tehnologii informaționale', '0000-00-00', 'empty field', 'empty field', 'Directia proiectare aplicatii', '+37322403021', '121', 'vitalie.bancu@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770604', '2020-04-20 16:49:56', '1', '103', '2021-07-15 17:17:34', '2025-08-04 16:40:39', '2021-07-15 17:18:16', 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
 	(4, 'Mirzac Ion', 'yyyyy', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Sef directie generala tehnologii informationale', 'Directia generala tehnologii informationale', '0000-00-00', 'empty field', 'empty field', 'empty field', '+37322403010', '110', 'ion.mirzac@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770014', '2020-04-20 16:49:56', 'empty field', 'empty field', '2025-01-03 10:39:59', '2025-07-31 09:02:58', NULL, 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
 	(5, 'BUJOR Vasili', 'xxxxx', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Sef directie proiectare aplicatii', 'Direcția generală tehnologii informaționale', '0000-00-00', 'empty field', 'empty field', 'Directia proiectare aplicatii', '+37322403020', '120', 'vasile.bujor@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770021', '2020-04-20 16:49:56', '1', '103', NULL, '2025-08-04 16:40:43', NULL, 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
