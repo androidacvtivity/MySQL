@@ -14,8 +14,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumping structure for table u331875177_db2.struct_bns
-CREATE TABLE IF NOT EXISTS `struct_bns` (
+-- Dumping structure for table u331875177_db2.struct_bnsoff
+CREATE TABLE IF NOT EXISTS `struct_bnsoff` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `type` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'empty field',
   `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'empty field',
@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS `struct_bns` (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Dumping data for table u331875177_db2.struct_bns: ~60 rows (approximately)
-INSERT INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
+-- Dumping data for table u331875177_db2.struct_bnsoff: ~60 rows (approximately)
+INSERT INTO `struct_bnsoff` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(1, 'star', 'Director general', 'xxxxx', '1'),
 	(2, 'star', 'Directori generali adjuncţi', 'xxxxx', '2'),
 	(3, 'serviciu', 'Cabinetul directorului general', 'xxxxx', '3'),
