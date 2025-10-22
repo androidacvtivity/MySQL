@@ -9,6 +9,13 @@
 			
 			UNION ALL
 			
-				SELECT COUNT(*) AS CNT 
+				SELECT COUNT(*) CNT 
+		
+			FROM start3v5off;
+			
+			
+			
+			
+SELECT LEFT(NAME,4)    
 		
 			FROM start3v5off
