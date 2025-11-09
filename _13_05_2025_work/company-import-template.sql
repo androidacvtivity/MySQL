@@ -1,5 +1,5 @@
 
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/company-2025.10.13.csv'
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/company-2025.11.03.csv'
 
 INTO TABLE registru_md_09_29_2025
 
