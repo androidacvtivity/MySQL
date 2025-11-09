@@ -10,4 +10,3 @@ SELECT *
 	
 	
 
-	FROM registru_md_09_29_2025;
