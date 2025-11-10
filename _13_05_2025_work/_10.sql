@@ -64,4 +64,18 @@ trim(STATUTUL_DATE)  STATUTUL_DATE
 	) VB 
 	
 	ORDER BY 
-VB.email desc
+VB.email DESC;
+
+SELECT *
+FROM reg_09_29_25_t1;
+-- 
+--  ---------------- 
+
+
+
+DELETE
+FROM reg_09_29_25_t1;
+
+
+
+
