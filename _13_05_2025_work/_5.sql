@@ -35,6 +35,14 @@ FROM reg_09_29_25_vw;
 
 
 
+DELETE
+FROM reg_09_29_25_vw
+WHERE 
+1
+;
+
+
+
 
 
 
