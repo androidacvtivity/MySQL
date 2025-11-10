@@ -21,17 +21,17 @@ FROM reg_09_29_25_vw;
 
 
 SELECT *
-FROM reg_09_01_25_vw
+FROM reg_09_29_25_vw
 
 
 ;
   
   
-UPDATE  reg_07_08_24_vw 
+UPDATE  reg_09_29_25_vw 
 SET act = NULL; 
 
 DELETE
-FROM registru_md_04_12_2025;
+FROM reg_09_29_25_vw;
 
 
 
