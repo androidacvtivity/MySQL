@@ -5,4 +5,4 @@ REPLACE(
 REPLACE(
 REPLACE(
 REPLACE(phoneinternal,'Ţ','T')
-,'ţ','t'),'Ş','S'),'ş','s'),'ă','a');
+,'ţ','t'),'Ş','S'),'ş','s'),'ă','a'); -- 
