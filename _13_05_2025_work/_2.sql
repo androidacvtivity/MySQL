@@ -18,7 +18,9 @@ ENGINE=INNODB;
 
 registru_md_10_13_2025
 DELETE
- FROM registru_md_10_13_2025;
+
+ FROM registru_md_09_29_2025;
+
  
  SELECT *
  FROM registru_md_10_13_2025;
