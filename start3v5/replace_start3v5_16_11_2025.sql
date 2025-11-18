@@ -1,4 +1,20 @@
+-- --------------------------------------------------------
+-- Host:                         127.0.0.1
+-- Server version:               8.0.42 - MySQL Community Server - GPL
+-- Server OS:                    Win64
+-- HeidiSQL Version:             12.13.0.7147
+-- --------------------------------------------------------
 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+-- Dumping structure for table u331875177_db2.start3v5off
 CREATE TABLE IF NOT EXISTS `start3v5off` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'empty field',
@@ -40,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `start3v5off` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1022 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dumping data for table u331875177_db2.start3v5off: ~389 rows (approximately)
-INSERT INTO `start3v5off` (`id`, `name`, `statut`, `description`, `galaxy`, `star`, `dob`, `serviciu`, `sectia`, `depart`, `phone`, `phoneinternal`, `email`, `personalinfo`, `formname`, `phonemobil`, `created_date`, `floor`, `office`, `remove_date`, `date_updated`, `recoverydata`, `notice`, `studio`) VALUES
+REPLACE INTO `start3v5off` (`id`, `name`, `statut`, `description`, `galaxy`, `star`, `dob`, `serviciu`, `sectia`, `depart`, `phone`, `phoneinternal`, `email`, `personalinfo`, `formname`, `phonemobil`, `created_date`, `floor`, `office`, `remove_date`, `date_updated`, `recoverydata`, `notice`, `studio`) VALUES
 	(3, 'BANCU Vitalie', 'xxxxx', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Programator principal', 'Direcția generală tehnologii informaționale', '0000-00-00', 'empty field', 'empty field', 'Directia proiectare aplicatii', '+37322403021', '121', 'vitalie.bancu@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770604', '2020-04-20 16:49:56', '1', '103', '2021-07-15 17:17:34', '2025-08-04 16:40:39', '2021-07-15 17:18:16', 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
 	(4, 'Mirzac Ion', 'yyyyy', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Sef directie generala tehnologii informationale', 'Directia generala tehnologii informationale', '0000-00-00', 'empty field', 'empty field', 'empty field', '+37322403010', '110', 'ion.mirzac@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770014', '2020-04-20 16:49:56', 'empty field', 'empty field', '2025-01-03 10:39:59', '2025-07-31 09:02:58', NULL, 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
 	(5, 'BUJOR Vasili', 'xxxxx', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Sef directie proiectare aplicatii', 'Direcția generală tehnologii informaționale', '0000-00-00', 'empty field', 'empty field', 'Directia proiectare aplicatii', '+37322403020', '120', 'vasile.bujor@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770021', '2020-04-20 16:49:56', '1', '103', NULL, '2025-08-04 16:40:43', NULL, 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
@@ -431,4 +447,8 @@ INSERT INTO `start3v5off` (`id`, `name`, `statut`, `description`, `galaxy`, `sta
 	(1020, 'GUȚU Veaceslav', 'xxxxx', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Consilier', '', '0000-00-00', 'Cabinetul directorului general', 'empty field', 'empty field', 'empty field', 'empty field', 'veaceslav.gutu@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '+37367770060', '2020-04-20 16:49:56', 'empty field', 'empty field', '2021-07-15 17:17:34', '2025-11-14 11:48:50', '2021-07-15 17:18:16', 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field'),
 	(1021, 'MERZÎNCU Vlad', 'yyyyy', 'BNS str. Grenoble, 106, MD-2019 Chisinau, Republica Moldova', 'Consultant', 'empty field', '0000-00-00', 'empty field', 'Secția conturi regionale', 'Direcția conturi naționale', 'empty field', 'empty field', 'vlad.merzincu@statistica.gov.md', 'Biroul National de Statistica (BNS) este autoritate administrativa independenta institutional si profesional, creata pe lînga Guvern în scopul coordonarii sistemului statistic national privind dezvoltarea si producerea statisticii oficiale.', 'empty field', '', '2020-04-20 16:49:56', 'empty field', 'empty field', '2021-07-15 17:17:34', '2025-11-16 18:25:10', '2021-07-15 17:18:16', 'Pentru vizualizarea informatiei complete despre angajat, accesati profilul. Click pe profil', 'empty field');
 
-
+/*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
