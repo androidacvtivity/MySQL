@@ -7,3 +7,6 @@ UNION ALL
 SELECT COUNT( * ) AS CNT
 
 FROM start3v5
+
+
+DROP TABLE IF EXISTS start3v5off;
