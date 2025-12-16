@@ -44,5 +44,5 @@ SELECT
 	WHERE 
 	1 
 	 
-	phoneinternal <> "empty field"
+-- 	phoneinternal <> "empty field"
 	;
