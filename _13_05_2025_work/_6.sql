@@ -21,6 +21,6 @@ DELETE
  FROM id_registru_09_29_25;
 
 
----          
+         
  SELECT *
  FROM id_registru_09_29_25;
