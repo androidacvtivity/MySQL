@@ -1,5 +1,12 @@
 SELECT *
-FROM registru_md_07_02_2024
+FROM registru_md_09_29_2025
+ORDER BY 
+IDNO
+; 
+
+
+DELETE
+FROM registru_md_09_29_2025
 ORDER BY 
 IDNO
 ; 
