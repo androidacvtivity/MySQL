@@ -1,4 +1,3 @@
-  -- 
 SET autocommit=0;
 SET @row_number = 0;
 	 
@@ -32,14 +31,7 @@ SET @row_number = 0;
 	 DATE_OF_LIQUID,
     STATUTUL_DATE,
 	 STATUTUL 
-	
-		 
-		 
-		 
 		 FROM  vw_1
-		 
-		 
-		 
 		 WHERE 
 		 1=1
 
