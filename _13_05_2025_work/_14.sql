@@ -6,3 +6,11 @@ REPLACE(
 REPLACE(
 REPLACE(phoneinternal,'Ţ','T')
 ,'ţ','t'),'Ş','S'),'ş','s'),'ă','a'); -- 
+
+
+SELECT *
+
+	FROM reg_09_29_25_v2;
+	
+
+	 
