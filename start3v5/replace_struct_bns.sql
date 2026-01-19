@@ -2,7 +2,7 @@
 -- Host:                         127.0.0.1
 -- Server version:               8.0.42 - MySQL Community Server - GPL
 -- Server OS:                    Win64
--- HeidiSQL Version:             12.13.0.7147
+-- HeidiSQL Version:             12.14.0.7169
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,18 +22,18 @@ CREATE TABLE IF NOT EXISTS `struct_bns` (
   `statut` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'xxxxx',
   `name_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'empty field',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Dumping data for table u331875177_db2.struct_bns: ~60 rows (approximately)
+-- Dumping data for table u331875177_db2.struct_bns: ~61 rows (approximately)
 REPLACE INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(1, 'star', 'Director general', 'xxxxx', '1'),
 	(2, 'star', 'Directori generali adjuncţi', 'xxxxx', '2'),
-	(3, 'depart', 'Cabinetul directorului general', 'xxxxx', '3'),
+	(3, 'depart', 'Cabinetul directorului general  (cu statut de serviciu)', 'xxxxx', '3'),
 	(4, 'serviciu', 'Serviciul audit intern', 'xxxxx', '4'),
 	(5, 'serviciu', 'Serviciul protecția datelor cu caracter personal', 'xxxxx', '5'),
 	(6, 'depart', 'Direcţia integrare europeană și cooperare internaţională', 'xxxxx', '6'),
 	(7, 'depart', 'Direcția coordonare statistică', 'xxxxx', '7'),
-	(8, 'depart', 'Direcția instruire în statistica oficială', 'xxxxx', '8'),
+	(8, 'depart', 'Centrul de formare în statistică  (cu statut de direcție)', 'xxxxx', '3.1'),
 	(9, 'depart', 'Direcţia diseminare şi comunicare', 'xxxxx', '9'),
 	(10, 'sectia', 'Secția diseminare', 'xxxxx', '10'),
 	(11, 'sectia', 'Secția comunicare și relații cu utilizatorii', 'xxxxx', '11'),
@@ -42,7 +42,7 @@ REPLACE INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(14, 'depart', 'Direcția surse de date alternative și instrumente inovatoare în statistică', 'xxxxx', '14'),
 	(15, 'depart', 'Direcția sisteme informaționale geografice', 'xxxxx', '15'),
 	(16, 'sectia', 'Secția managementul calității', 'xxxxx', '16'),
-	(17, 'depart', 'Direcţia conturi naţionale', 'xxxxx', '17'),
+	(17, 'star', 'Direcţia generală conturi naţionale', 'xxxxx', '17'),
 	(18, 'sectia', 'Secția conturi anuale și trimestriale', 'xxxxx', '18'),
 	(19, 'sectia', 'Secția conturi regionale', 'xxxxx', '19'),
 	(20, 'sectia', 'Secția conturi integrate', 'xxxxx', '20'),
@@ -85,7 +85,8 @@ REPLACE INTO `struct_bns` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(57, 'star', 'Centrul regional pentru statistică Chişinău', 'xxxxx', '57'),
 	(58, 'star', 'Centrul regional pentru statistică Nord', 'xxxxx', '58'),
 	(59, 'star', 'Centrul regional pentru statistică Centru', 'xxxxx', '59'),
-	(60, 'star', 'Centrul regional pentru statistică Sud', 'xxxxx', '60');
+	(60, 'star', 'Centrul regional pentru statistică Sud', 'xxxxx', '60'),
+	(62, 'depart', 'Direcția statistica finanțelor publice', 'xxxxx', '17.1');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

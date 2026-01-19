@@ -2,7 +2,7 @@
 -- Host:                         127.0.0.1
 -- Server version:               8.0.42 - MySQL Community Server - GPL
 -- Server OS:                    Win64
--- HeidiSQL Version:             12.14.0.7165
+-- HeidiSQL Version:             12.14.0.7169
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,9 +22,9 @@ CREATE TABLE IF NOT EXISTS `struct_bnsoff` (
   `statut` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'xxxxx',
   `name_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'empty field',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=62 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Dumping data for table u331875177_db2.struct_bnsoff: ~60 rows (approximately)
+-- Dumping data for table u331875177_db2.struct_bnsoff: ~61 rows (approximately)
 REPLACE INTO `struct_bnsoff` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(1, 'star', 'Director general', 'xxxxx', '1'),
 	(2, 'star', 'Directori generali adjuncţi', 'xxxxx', '2'),
@@ -42,50 +42,51 @@ REPLACE INTO `struct_bnsoff` (`id`, `type`, `name`, `statut`, `name_id`) VALUES
 	(14, 'depart', 'Direcția surse de date alternative și instrumente inovatoare în statistică', 'xxxxx', '14'),
 	(15, 'depart', 'Direcția sisteme informaționale geografice', 'xxxxx', '15'),
 	(16, 'sectia', 'Secția managementul calității', 'xxxxx', '16'),
-	(17, 'depart', 'Direcţia conturi naţionale', 'xxxxx', '17'),
-	(18, 'sectia', 'Secția conturi anuale și trimestriale', 'xxxxx', '18'),
-	(19, 'sectia', 'Secția conturi regionale', 'xxxxx', '19'),
-	(20, 'sectia', 'Secția conturi integrate', 'xxxxx', '20'),
-	(21, 'depart', 'Direcţia statistica preţurilor de consum', 'xxxxx', '21'),
-	(22, 'depart', 'Direcţia statistica comerţului exterior', 'xxxxx', '22'),
-	(23, 'star', 'Direcţia generală statistica întreprinderilor', 'xxxxx', '23'),
-	(24, 'depart', 'Direcţia statistica industriei şi energeticii', 'xxxxx', '24'),
-	(25, 'depart', 'Direcţia statistica investiţiilor şi construcţiilor', 'xxxxx', '25'),
-	(26, 'depart', 'Direcţia statistica structurală', 'xxxxx', '26'),
-	(27, 'depart', 'Direcția statistica turismului, tehnologiei informației și comunicațiilor', 'xxxxx', '27'),
-	(28, 'depart', 'Direcția statistica transporturilor și serviciilor', 'xxxxx', '28'),
-	(29, 'depart', 'Direcţia statistica populaţiei şi migraţiei', 'xxxxx', '29'),
-	(30, 'depart', 'Direcţia statistica nivelului de trai', 'xxxxx', '30'),
-	(31, 'depart', 'Direcția statistica forței de muncă', 'xxxxx', '31'),
-	(32, 'depart', 'Direcţia statistica pieței muncii', 'xxxxx', '32'),
-	(33, 'depart', 'Direcţia statistica educaţiei, ştiinţei şi culturii', 'xxxxx', '33'),
-	(34, 'depart', 'Direcţia statistica serviciilor sociale', 'xxxxx', '34'),
-	(35, 'depart', 'Direcţia recensăminte', 'xxxxx', '35'),
-	(36, 'depart', 'Direcția colectarea datelor în gospodării', 'xxxxx', '36'),
-	(37, 'depart', 'Direcţia statistica agriculturii şi mediului', 'xxxxx', '37'),
-	(38, 'sectia', 'Secţia statistica producției vegetale și animaliere', 'xxxxx', '38'),
-	(39, 'sectia', 'Secţia cercetări selective în agricultură', 'xxxxx', '39'),
-	(40, 'sectia', 'Secția calcule economice în agricultură', 'xxxxx', '40'),
-	(41, 'serviciu', 'Serviciul statistica mediului', 'xxxxx', '41'),
-	(42, 'depart', 'Direcția depozitarul public al situațiilor financiare și antreprenoriat', 'xxxxx', '42'),
-	(43, 'sectia', 'Secția depozitar', 'xxxxx', '43'),
-	(44, 'sectia', 'Secția statistica antreprenoriatului', 'xxxxx', '44'),
-	(45, 'star', 'Direcţia generală tehnologii informaţionale', 'xxxxx', '45'),
-	(46, 'depart', 'Direcția dezvoltare sisteme informaționale', 'xxxxx', '46'),
-	(47, 'depart', 'Direcţia proiectare aplicaţii', 'xxxxx', '47'),
-	(48, 'depart', 'Direcţia administrare a sistemului informaţional', 'xxxxx', '48'),
-	(49, 'serviciu', 'Serviciul suport respondenți', 'xxxxx', '49'),
-	(50, 'star', 'Direcția generală management financiar', 'xxxxx', '50'),
-	(51, 'depart', 'Direcția planificare', 'xxxxx', '51'),
-	(52, 'depart', 'Direcția evidență contabilă', 'xxxxx', '52'),
-	(53, 'depart', 'Direcția administrare şi achiziţii', 'xxxxx', '53'),
-	(54, 'sectia', 'Secția juridică', 'xxxxx', '54'),
-	(55, 'depart', 'Direcția resurse umane', 'xxxxx', '55'),
-	(56, 'sectia', 'Secția managementul documentelor', 'xxxxx', '56'),
-	(57, 'star', 'Centrul regional pentru statistică Chişinău', 'xxxxx', '57'),
-	(58, 'star', 'Centrul regional pentru statistică Nord', 'xxxxx', '58'),
-	(59, 'star', 'Centrul regional pentru statistică Centru', 'xxxxx', '59'),
-	(60, 'star', 'Centrul regional pentru statistică Sud', 'xxxxx', '60');
+	(17, 'star', 'Direcţia generală conturi naţionale', 'xxxxx', '17'),
+	(18, 'depart', 'Direcția statistica finanțelor publice', 'xxxxx', '18'),
+	(19, 'sectia', 'Secția conturi anuale și trimestriale', 'xxxxx', '19'),
+	(20, 'sectia', 'Secția conturi regionale', 'xxxxx', '20'),
+	(21, 'sectia', 'Secția conturi integrate', 'xxxxx', '21'),
+	(22, 'depart', 'Direcţia statistica preţurilor de consum', 'xxxxx', '22'),
+	(23, 'depart', 'Direcţia statistica comerţului exterior', 'xxxxx', '23'),
+	(24, 'star', 'Direcţia generală statistica întreprinderilor', 'xxxxx', '24'),
+	(25, 'depart', 'Direcţia statistica industriei şi energeticii', 'xxxxx', '25'),
+	(26, 'depart', 'Direcţia statistica investiţiilor şi construcţiilor', 'xxxxx', '26'),
+	(27, 'depart', 'Direcţia statistica structurală', 'xxxxx', '27'),
+	(28, 'depart', 'Direcția statistica turismului, tehnologiei informației și comunicațiilor', 'xxxxx', '28'),
+	(29, 'depart', 'Direcția statistica transporturilor și serviciilor', 'xxxxx', '29'),
+	(30, 'depart', 'Direcţia statistica populaţiei şi migraţiei', 'xxxxx', '30'),
+	(31, 'depart', 'Direcţia statistica nivelului de trai', 'xxxxx', '31'),
+	(32, 'depart', 'Direcția statistica forței de muncă', 'xxxxx', '32'),
+	(33, 'depart', 'Direcţia statistica pieței muncii', 'xxxxx', '33'),
+	(34, 'depart', 'Direcţia statistica educaţiei, ştiinţei şi culturii', 'xxxxx', '34'),
+	(35, 'depart', 'Direcţia statistica serviciilor sociale', 'xxxxx', '35'),
+	(36, 'depart', 'Direcţia recensăminte', 'xxxxx', '36'),
+	(37, 'depart', 'Direcția colectarea datelor în gospodării', 'xxxxx', '37'),
+	(38, 'depart', 'Direcţia statistica agriculturii şi mediului', 'xxxxx', '38'),
+	(39, 'sectia', 'Secţia statistica producției vegetale și animaliere', 'xxxxx', '39'),
+	(40, 'sectia', 'Secţia cercetări selective în agricultură', 'xxxxx', '40'),
+	(41, 'sectia', 'Secția calcule economice în agricultură', 'xxxxx', '41'),
+	(42, 'serviciu', 'Serviciul statistica mediului', 'xxxxx', '42'),
+	(43, 'depart', 'Direcția depozitarul public al situațiilor financiare și antreprenoriat', 'xxxxx', '43'),
+	(44, 'sectia', 'Secția depozitar', 'xxxxx', '44'),
+	(45, 'sectia', 'Secția statistica antreprenoriatului', 'xxxxx', '45'),
+	(46, 'star', 'Direcţia generală tehnologii informaţionale', 'xxxxx', '46'),
+	(47, 'depart', 'Direcția dezvoltare sisteme informaționale', 'xxxxx', '47'),
+	(48, 'depart', 'Direcţia proiectare aplicaţii', 'xxxxx', '48'),
+	(49, 'depart', 'Direcţia administrare a sistemului informaţional', 'xxxxx', '49'),
+	(50, 'serviciu', 'Serviciul suport respondenți', 'xxxxx', '50'),
+	(51, 'star', 'Direcția generală management financiar', 'xxxxx', '51'),
+	(52, 'depart', 'Direcția planificare', 'xxxxx', '52'),
+	(53, 'depart', 'Direcția evidență contabilă', 'xxxxx', '53'),
+	(54, 'depart', 'Direcția administrare şi achiziţii', 'xxxxx', '54'),
+	(55, 'sectia', 'Secția juridică', 'xxxxx', '55'),
+	(56, 'depart', 'Direcția resurse umane', 'xxxxx', '56'),
+	(57, 'sectia', 'Secția managementul documentelor', 'xxxxx', '57'),
+	(58, 'star', 'Centrul regional pentru statistică Chişinău', 'xxxxx', '58'),
+	(59, 'star', 'Centrul regional pentru statistică Nord', 'xxxxx', '59'),
+	(60, 'star', 'Centrul regional pentru statistică Centru', 'xxxxx', '60'),
+	(61, 'star', 'Centrul regional pentru statistică Sud', 'xxxxx', '61');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
