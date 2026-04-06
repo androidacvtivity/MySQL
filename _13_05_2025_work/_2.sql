@@ -23,7 +23,4 @@ FROM registru_md_09_29_2025;
 
  
  SELECT *
- FROM registru_md_09_29_2025
- ORDER BY 
- DATA_REG DESC
- ;
+ FROM registru_md_09_29_2025;
