@@ -36,12 +36,18 @@ FROM reg_09_29_25_vw;
 
 
 DELETE
-FROM reg_09_29_25_vw
+FROM id_registru_09_29_25
 WHERE 
 1
 ;
 
 
+
+DELETE
+FROM reg_09_29_25_vw
+WHERE 
+1
+;
 
 
 
