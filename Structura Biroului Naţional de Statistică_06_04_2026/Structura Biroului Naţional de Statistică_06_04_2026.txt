@@ -6,3 +6,8 @@ Modificarea Structura Biroului Naţional de Statistică la data de 04.06.2026
 D:\work\MySQL\Structura Biroului Naţional de Statistică_06_04_2026
 1. start3v5.sql
 2. start3v5off.sql
+
+--- Modificările le fac în tabelele a căror denumire nu se termină în _old.
+-- I make the changes in the tables whose names do not end with _old 
+
+Direcția generală statistica agriculturii și mediului
