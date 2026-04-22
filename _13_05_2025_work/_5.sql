@@ -22,8 +22,6 @@ FROM reg_09_29_25_vw;
 
 SELECT *
 FROM reg_09_29_25_vw
-
-
 ;
   
   
