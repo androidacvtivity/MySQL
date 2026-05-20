@@ -1,4 +1,4 @@
-CREATE TABLE `reg_09_29_25_v2` (
+CREATE TABLE `reg_09_29_prod_04_14_2525_v2` (
 
 	`id` INT(10) NOT NULL AUTO_INCREMENT,
 	`name` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
@@ -9,7 +9,7 @@ CREATE TABLE `reg_09_29_25_v2` (
 	`dob` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`serviciu` VARCHAR(1024) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`sectia` MEDIUMTEXT NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
-	`depart` VARCHAR(1024) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`depart` VARCHAR(4096) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`phone` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`phoneinternal` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
 	`email` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
