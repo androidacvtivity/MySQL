@@ -1,1 +1,5 @@
-CREATE DATABASE `prod_09_15_25` /*!40100 COLLATE 'utf8mb4_unicode_ci' */
+CREATE DATABASE `prod_09_15_25`; /*!40100 COLLATE 'utf8mb4_unicode_ci' */
+
+
+ALTER TABLE registru_md_09_29_2025
+MODIFY COLUMN GEN_ACT_LIC VARCHAR(4096) NULL DEFAULT NULL COLLATE utf8mb4_unicode_ci;

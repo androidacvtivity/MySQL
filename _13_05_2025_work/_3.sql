@@ -7,6 +7,9 @@ WHEN  DATE_OF_LIQUID IS NULL THEN 'activ' ELSE 'lichidata' END; -- 09/16/2025
 SELECT *
 
 	FROM registru_md_09_29_2025
+	
+	WHERE 
+	LIST_COND LIKE 'BANCU%'
 	ORDER BY 
 	DATA_REG DESC
 	;
