@@ -38,7 +38,7 @@ WHERE
 ;
 
 SELECT *
-FROM registru_md_09_29_2025
+FROM reg_09_29_25_vw
 WHERE 
 1
 ;
