@@ -17,3 +17,15 @@ ORDER BY CAST(REPLACE(name_id, ',', '.') AS DECIMAL(65,10));  -- handles "3.1" a
 
        DELETE
        FROM struct_bnsoff; 
+
+
+
+INSERT INTO struct_bnsoff (ID, TYPE, NAME, statut, name_id)
+SELECT
+id,
+type,
+name,
+statut,
+name_id
+FROM struct_bns;
+
