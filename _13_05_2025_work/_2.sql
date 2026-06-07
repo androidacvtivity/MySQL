@@ -24,3 +24,8 @@ FROM registru_md_09_29_2025;
  
  SELECT *
  FROM registru_md_09_29_2025;
+ 
+ 
+ USE `prod_09_15_25`;
+
+RENAME TABLE `registru_md_10_13_2025` TO `registru_md_09_29_2025`;

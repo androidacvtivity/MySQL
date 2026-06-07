@@ -1,0 +1,1 @@
+sudo mariadb -u root --local-infile=1 < ~/Downloads/import_registru_md_10_13_2025_mac.sql

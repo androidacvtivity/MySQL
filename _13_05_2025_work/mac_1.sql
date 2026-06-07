@@ -1,0 +1,16 @@
+SELECT COUNT(*) AS CNT
+FROM registru_md_10_13_2025;
+
+USE `prod_09_15_25`;
+
+SELECT COUNT(*) 
+FROM `registru_md_10_13_2025`;
+
+SELECT * 
+FROM `registru_md_10_13_2025`
+LIMIT 10;
+
+SELECT * 
+FROM `prod_09_15_25`.`registru_md_10_13_2025`
+WHERE `LIST_COND` LIKE '%BANCU%'
+ORDER BY `DATA_REG` DESC;
