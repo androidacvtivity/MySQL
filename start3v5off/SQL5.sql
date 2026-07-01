@@ -1,6 +1,4 @@
 SELECT COUNT( * ) AS CNT
 
-FROM start3v5off
+FROM start3v5
 
-WHERE
-	statut = 'xxxxx';
